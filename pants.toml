@@ -1,0 +1,11 @@
+[GLOBAL]
+pants_version = "2.14.1"
+backend_packages = [
+  "pants.backend.python"
+]
+
+[source]
+root_patterns = [
+  'src/pyspark',
+  'test/pyspark',
+]
