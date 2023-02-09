@@ -6,6 +6,8 @@ backend_packages = [
 
 [source]
 root_patterns = [
-  'src/pyspark',
-  'test/pyspark',
+  'src/python',
+  'test/python',
+  'src/spark',
+  'test/spark',
 ]
